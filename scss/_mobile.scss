@@ -1,0 +1,56 @@
+@media (max-width:600px) {
+    .container {
+        padding: 0px 30px;
+    }
+    .showcase {
+        width: 100%;
+        background: url('../img/bg-mobile.svg');
+        background-repeat: no-repeat;
+        background-color: $primary-color;
+        height: 100vh;
+
+        .logo img {
+            width:20%;
+            padding: 0px;
+        }
+
+        .main {
+            margin-top: 20px;
+
+            &-content {
+                display: flex;
+                flex-direction: column;
+
+
+                .text {
+                    text-align: center;
+                    
+                    h1 {
+                        font-size: 35px;
+                        line-height: 1.4;
+                        margin-bottom: 0px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        margin-top:10px;
+                    }
+                }
+            }
+
+
+            .social-links {
+                text-align: center;
+                margin-top: 2rem;
+                margin-left: 50px;
+
+                img {
+                    width: 25px;
+                    padding: 0.2rem;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    
+}
